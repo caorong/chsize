@@ -1,6 +1,7 @@
 # chsize
 
-----
+[![Build Status](https://travis-ci.org/caorong/chsize.svg?branch=master)](https://travis-ci.org/caorong/chsize)
+
 
 chsize = chinese character size in shell
 
