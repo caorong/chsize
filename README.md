@@ -2,7 +2,7 @@
 
 ----
 
-chsize = chinese character size
+chsize = chinese character size in shell
 
 get the real size of a character use in shell(with monospace font)
 
@@ -42,7 +42,7 @@ Out[2]: ' 我  |'
 
 ```
 
-because python only take care of count of word, not if it is half width or full width.
+because python only take care of count of word, do not care if it is half width or full width.
 
 
 
@@ -59,4 +59,8 @@ now only support for some commonly used word in work
 1. half-width and full width [FF00—FFEF](http://unicode-table.com/cn/blocks/halfwidth-and-fullwidth-forms/) 
 2. chinese/japanese/korean character [4E00—9FFF](http://unicode-table.com/cn/blocks/cjk-unified-ideographs/)
 
+
+## License
+
+MIT
 

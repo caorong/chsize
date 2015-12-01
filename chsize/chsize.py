@@ -26,6 +26,7 @@ character_block = [eval(line.rstrip('\n')) for line in open(os.path.dirname(
 
 DEFAUTL_SIZE = 1
 
+
 def _check_size(char):
     char = u(char)
     if char < character_block[0][0] or \

@@ -39,7 +39,7 @@ def test_range(start, end):
 
 def _hex(c):
     #  print('\u' + hex(c)[2:])
-    return '\u' + hex(c)[2:]
+    return '\u{0}'.format(hex(c)[2:])
 
 
 def iter_range_withoutput(start, end):
