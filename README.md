@@ -18,13 +18,16 @@ for example
 ## usage
 
 ```
-In [1]: from chsize import chlen
+In [1]: from chsize import chlen, echlen
 
 In [2]: chlen('hello world!')
 Out[2]: 12
 
 In [3]: chlen('你好世界！')
 Out[3]: 10
+
+In [4]: echlen('我你2我')
+Out[4]: [('我', 2), ('你', 2), ('2', 1), ('我', 2)]
 ```
 
 

@@ -3,9 +3,9 @@
 
 import sys
 
-from .chsize import chlen
+from .chsize import chlen, echlen
 
 
-__version__ = '0.0.1'
+__version__ = '0.0.2'
 __python__ = sys.version_info
-__all__ = ["chlen"]
+__all__ = ["chlen", "echlen"]

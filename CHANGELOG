@@ -2,3 +2,9 @@ Verion 0.0.1
 ------------
 
 first release
+
+
+Verion 0.0.2
+------------
+
+add echlen, return each character and its len tuple

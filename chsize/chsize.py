@@ -54,3 +54,24 @@ def chlen(word):
         return count
     else:
         return len(word)
+
+
+def echlen(word):
+    '''
+    return each char len in a list
+    '''
+    try:
+        word = u(str(word))
+    except:
+        pass
+    if isinstance(word, text_type):
+        #  count = 0
+        data = []
+        for char in word:
+            size = _check_size(char)
+            #  print(char, size)
+            #  count += size
+            data.append((char, size))
+        return data
+    else:
+        return [(i, 1) for i in word]
